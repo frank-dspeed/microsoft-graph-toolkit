@@ -77,19 +77,19 @@ npm install @microsoft/mgt
 Now you can reference all components at the page you are using:
 
 ```html
-<script src="node_modules/@microsoft/mgt/dist/es6/components.js"></script>
+<script type="module" src="node_modules/@microsoft/mgt/dist/es6/components.js"></script>
 ```
 
 Or, just reference the component you need and avoid loading everything else:
 
 ```html
-<script src="node_modules/@microsoft/mgt/dist/es6/components/mgt-login/mgt-login.js"></script>
+<script type="module" src="node_modules/@microsoft/mgt/dist/es6/components/mgt-login/mgt-login.js"></script>
 ```
 
 Similarly, to add a provider, you can add it as a component:
 
 ```html
-<script src="node_modules/@microsoft/mgt/dist/es6/components/providers/mgt-msal-provider.js"></script>
+<script type="module" src="node_modules/@microsoft/mgt/dist/es6/components/providers/mgt-msal-provider.js"></script>
 
 <mgt-msal-provider client-id="[CLIENT-ID]"></mgt-msal-provider>
 ```
